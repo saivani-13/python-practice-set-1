@@ -1,8 +1,6 @@
-l = float(input("Enter length: "))
-b = float(input("Enter breadth: "))
-
-if l > 0 and b > 0:
-    print("Area:", l * b)
-    print("Perimeter:", 2 * (l + b))
+a = int(input("Enter a number : "))
+if a & 1 == 0:
+    print(f"Remainder is 0 and quotient is {a>>1}")
 else:
-    print("Invalid input")
+    print(f"Remainder is {a & 1} and quotient is {a>>1}")
+    

@@ -1,6 +1,6 @@
-radius = float(input("Enter radius: "))
-if radius >= 0:
-    area = 3.14 * radius * radius
-    print("Area:", area)
+a = float(input("Enter the cost of the item : "))
+b = float(input("Enter the selling price of the item : "))
+if a > b:
+    print(f"The item is in sale and it is a profit of {a - b}")
 else:
-    print("Invalid radius")
+    print(f"The item is not in sale and it is a loss of {b - a}")
